@@ -109,7 +109,7 @@ section{
 
 .search-box {
     height: 30px;
-    width: 330 px;
+    width: 330px;
     padding: 6px 6px 12px 12px;
     border: 1px #a0a0a0;
 }
@@ -133,7 +133,7 @@ section{
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: .2px;
+    letter-spacing: 0.2px;
 }
 
 .profile {
@@ -145,6 +145,10 @@ section{
     padding: 15px;
     color: #364147;
     font-size: 18px;
+}
+
+.account a {
+    font-size: 14px;
 }
 
 .profile-pic {
