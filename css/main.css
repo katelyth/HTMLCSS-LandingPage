@@ -252,18 +252,18 @@ section{
     content: "";
     position: absolute;
     border: 1px solid #ffffff;
-    z-index: 1;
     top: 30px;
     bottom: 30px;
     left: 30px;
     right: 30px;
+    z-index: 1;
 }
 
 .full-banner-image {
     flex: 0 0 58.333333%;
-    background-image: url("../img/vista.jpg");
-    size: cover;
-    position: top, center;
+    background-image: url('../img/vista.jpg');
+    background-size: cover;
+    background-position: top center;
     min-height: 400px;
 }
 
