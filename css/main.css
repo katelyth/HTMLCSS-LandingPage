@@ -380,15 +380,15 @@ footer a:hover {
 }
 
 .facebook {
-    background-image: url("../img/facebook.svg");
+    background-image: url('..img/facebook.svg');
 }
 
 .instagram {
-    background-image: url("../img/instagram.svg");
+    background-image: url('../img/instagram.svg');
 }
 
 .pinterest {
-    background-image: url("../img/pinterest.svg");
+    background-image: url('../img/pinterest.svg');
 }
 
 .newsletter .link-header {
@@ -400,7 +400,7 @@ footer a:hover {
 .newsletter .link-subheader {
     font-style: italic;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 15px;
 }
 
@@ -422,6 +422,10 @@ footer a:hover {
     padding: 40px 0;
     color: #e5e5e5;
     font-size: 16px;
+}
+
+.ps img {
+    max-width: 230px;
 }
 
 .demo {
