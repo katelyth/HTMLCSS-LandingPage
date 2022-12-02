@@ -104,13 +104,13 @@ section{
 
 .logo {
     max-width: 100%;
-    max-height: auto;
+    height: auto;
 }
 
 .search-box {
     height: 30px;
     width: 330 px;
-    padding: 6px 12px;
+    padding: 6px 6px 12px 12px;
     border: 1px #a0a0a0;
 }
 
@@ -129,7 +129,7 @@ section{
     margin-top: 10px;
 }
 
-.nav-list li, a {
+.nav-list li a {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
@@ -144,12 +144,15 @@ section{
     text-align: right;
     padding: 15px;
     color: #364147;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .profile-pic {
-    size: 60px 60px;
+    width: 60px;
+    height: 60px;
+}
+
+.profile-pic img {
     border-radius: 100px;
     max-width: 100%;
 }
-
